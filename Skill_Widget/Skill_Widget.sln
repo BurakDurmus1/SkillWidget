@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skill_Widget", "Skill_Widget\Skill_Widget.csproj", "{51C075EE-1061-4205-968A-17425C8896FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51C075EE-1061-4205-968A-17425C8896FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C075EE-1061-4205-968A-17425C8896FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C075EE-1061-4205-968A-17425C8896FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C075EE-1061-4205-968A-17425C8896FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89B30878-3201-4177-9A35-5C6ACFB0BF46}
+	EndGlobalSection
+EndGlobal

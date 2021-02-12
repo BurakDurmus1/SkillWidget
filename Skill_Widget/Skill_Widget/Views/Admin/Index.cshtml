@@ -1,0 +1,25 @@
+﻿@using Skill_Widget.Models.siniflar;
+@model List<Yetenekler>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>YETENEK</th>
+        <th>DEGER</th>
+    </tr>
+    @foreach (var p in Model)
+    {
+    <tr>
+        <td>@p.ID</td>
+        <td>@p.ACIKLAMA</td>
+        <td>@p.DEGER</td>
+        <td><a href="/Admin/YetenekSil/@p.ID" class="btn btn-danger">Sil</a></td>
+        <td><a href="/Admin/YetenekGetir/@p.ID" class="btn btn-success">Güncelle</a></td>
+    </tr>
+    }
+</table>
+
